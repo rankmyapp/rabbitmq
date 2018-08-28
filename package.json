@@ -1,0 +1,27 @@
+{
+  "name": "rabbitmq-class",
+  "version": "0.1.0",
+  "description": "rabbitmq with javascript class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitmq",
+    "javascript",
+    "amqplib"
+  ],
+  "author": "Adilson Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.26.0",
+    "amqplib": "^0.5.2",
+    "debug": "^3.1.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
