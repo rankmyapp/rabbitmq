@@ -1,5 +1,5 @@
 {
-  "name": "rabbitmq-class",
+  "name": "rabbitmq",
   "version": "0.1.0",
   "description": "rabbitmq with javascript class",
   "main": "index.js",
