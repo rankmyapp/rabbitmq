@@ -1,3 +1,15 @@
 {
-    "extends": "airbnb-base"
+    "extends": "airbnb-base",
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "prefer-destructuring": ["error", {
+          "object": true
+        }, {
+          "enforceForRenamedProperties": false
+        }]
+      }
+
 }

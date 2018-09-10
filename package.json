@@ -4,7 +4,9 @@
   "description": "rabbitmq with javascript class",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha --timeout 20000 test --recursive --exit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "rabbitmq",
@@ -16,12 +18,15 @@
   "dependencies": {
     "@std/esm": "^0.26.0",
     "amqplib": "^0.5.2",
+    "bluebird": "^3.5.2",
     "debug": "^3.1.0",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
   }
 }
