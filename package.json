@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "rabbitmq with javascript class",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,11 @@
     "javascript",
     "amqplib"
   ],
-  "author": "Adilson Cruz",
+  "author": "RankMyAPP@Developerss",
   "license": "ISC",
   "dependencies": {
     "@std/esm": "^0.26.0",
-    "amqplib": "^0.5.2",
+    "amqplib": "^0.5.3",
     "bluebird": "^3.5.2",
     "debug": "^3.1.0",
     "ramda": "^0.25.0"
