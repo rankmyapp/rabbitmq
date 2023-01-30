@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@std/esm": "^0.26.0",
-    "amqplib": "^0.5.6",
+    "amqplib": "^0.10.3",
     "bluebird": "^3.5.2",
     "debug": "^3.1.0",
     "ramda": "^0.25.0"
