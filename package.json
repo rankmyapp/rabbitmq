@@ -19,7 +19,7 @@
     "@std/esm": "^0.26.0",
     "amqplib": "^0.10.3",
     "bluebird": "^3.5.2",
-    "debug": "^3.1.0",
+    "debug": "^3.2.7",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
